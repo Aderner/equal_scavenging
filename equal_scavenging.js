@@ -1,5 +1,4 @@
-javascript:
-  if (!location.href.includes('screen=place&mode=scavenge')) {
+if (!location.href.includes('screen=place&mode=scavenge')) {
     location.href = 'https://uk82.tribalwars.co.uk/game.php?screen=place&mode=scavenge';
   }
 
