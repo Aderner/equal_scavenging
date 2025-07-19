@@ -1,5 +1,5 @@
 javascript:
-(function() {
+
   if (!location.href.includes('screen=place&mode=scavenge')) {
     location.href = 'https://uk82.tribalwars.co.uk/game.php?screen=place&mode=scavenge';
     return;
@@ -68,4 +68,4 @@ javascript:
       setTimeout(() => o.click(), 500);
     }, i * 2000);
   });
-})();
+};
