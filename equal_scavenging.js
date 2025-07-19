@@ -65,4 +65,3 @@ javascript:
       setTimeout(() => o.click(), 500);
     }, i * 2000);
   });
-};
