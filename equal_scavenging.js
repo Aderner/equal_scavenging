@@ -1,7 +1,6 @@
 javascript:
   if (!location.href.includes('screen=place&mode=scavenge')) {
     location.href = 'https://uk82.tribalwars.co.uk/game.php?screen=place&mode=scavenge';
-    return;
   }
 
   const unitInputs = Array.from(document.querySelectorAll('input.unitsInput'));
@@ -26,7 +25,6 @@ javascript:
 
   if (activeOptions.length === 0) {
     alert('No scavenging options available.');
-    return;
   }
 
   const timeFactors = [1, 2.5, 5, 7.5];
