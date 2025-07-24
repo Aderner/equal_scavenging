@@ -51,7 +51,7 @@
         const formInputs = document.querySelectorAll('.unitsInput');
         for (const unit in unitDistribution) {
           formInputs.forEach(input => {
-            if (input.name === unit) {
+            if (input.name === unit && unit !== 'knight') {
               const value = unitDistribution[unit][i];
               input.value = value;
 
